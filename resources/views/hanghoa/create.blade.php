@@ -72,7 +72,7 @@
                                                                 <label for="barcode" class="form-label">Barcode</label>
                                                                 <div class="form-control-wrap">
                                                                     <input type="text" class="form-control" id="barcode" name="barcode"
-                                                                        value="{{ old('barcode') }}" placeholder="Barcode" maxlength="100">
+                                                                        value="{{ old('barcode') }}" placeholder="Barcode" maxlength="10">
                                                                 </div>
                                                                 @if ($errors)
                                                                     <span class="text-danger py-1 mt-2">{{ $errors->first('barcode') }}</span>
